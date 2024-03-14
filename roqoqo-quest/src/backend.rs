@@ -185,7 +185,7 @@ impl Backend {
         // (when PragmaRandomNoise is present in circuit)
         // or when allowing for stochastic overrotations where coherent gates are applied
         // with a stocastic offset
-        // (when PragmaOverrotation is present in circuit)
+        // (when PragmaOverrotation is present in circuit).
         let mut repetitions = match circuit_vec.iter().find(|x| {
             matches!(
                 x,
